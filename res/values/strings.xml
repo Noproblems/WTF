@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTF</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="strAll">strAll</string>
+<string name="strClear">strClear</string>
+<string name="strCheck">strCheck</string>
+<string name="strDelete">Delete</string>
+<string name="cow">View</string>
+</resources>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dirName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:scaleType="centerInside"
+         
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/Numberoffile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:text="Number of files"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/Modellist"
+            android:layout_width="fill_parent"
+            android:layout_height="262dp"
+            android:cacheColorHint="#00000000"
+            android:clickable="true"
+            android:headerDividersEnabled="false" />
+
+        <LinearLayout
+            android:id="@+id/rows1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            
+
+            <Button
+                android:id="@+id/deletebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                android:text="Delete" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rows2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rows1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/downloadbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="download" />
+
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
